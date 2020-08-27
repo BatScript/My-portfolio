@@ -1,0 +1,244 @@
+/* First container - CSS flexbox */
+
+h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  width: 40%;
+  margin: 250px 600px 0 auto;
+  font-size: 3.6rem;
+  color: white;
+  font-weight: normal;
+}
+
+h2{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 1.2;
+}
+
+p{
+  font-family: 'Architects Daughter', cursive;
+  color: white;
+  font-size: 1.3rem;
+  margin: 0 750px 0 auto;
+  text-align: center;
+  width: 20%;
+}
+
+.top-container{
+  background-image: url("images/background.png");
+  width: 100%;
+  background-size: 100%;
+  height:650px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right:0;
+  left:0;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+}
+
+hr{
+  width: 20%;
+  border: dotted #009AAE 6px;
+  margin: 80px auto 20px auto;
+  border-bottom: 0;
+}
+
+/* Middle container - CSS flexbox part-2*/
+
+.mid-container{
+  margin: 650px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+}
+
+.children1{
+  flex:3;
+  
+}
+
+.children{
+  flex:1;
+}
+
+.uni{
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+}
+
+.profileimg{
+  display: block;
+  margin: 0 auto 0 auto;
+  width:30%;
+}
+.intro{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bie{
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  margin: 0 auto 0 auto;
+}
+
+
+/* My websites - more CSS flexbox and Button styling */
+
+
+.flexboxes{
+  margin: 20px auto;
+}
+
+.web{
+  font-family: 'Architects Daughter', cursive;
+  color:black;
+  width: 100%;
+  margin: 0 auto 70px auto;
+  top: 0;
+}
+
+
+.bi{
+  width:32%;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+
+.row1, .row2 {
+  display: flex;
+  height: 500px;;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.two, .three{
+  flex:2;
+  margin: 0 auto 0 auto;
+}
+.one, .four{
+  flex:3;
+  margin: 0 auto 0 auto;
+}
+
+.bi{
+  width: 40%;
+}
+
+.but{
+  margin: 10px;
+}
+
+.button {
+	display: inline-block;
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: .15rem;
+	transition: all .3s;
+	position: relative;
+  overflow: hidden;
+  background-color: #0cf;
+}
+.button:hover {
+  background-color: black;
+}
+
+* {
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  right:0;
+  left:0;
+}
+
+
+/* My illustrations - CSS GRIDS */
+
+
+.illustration{
+  display: grid;
+  margin: 0 auto 0 auto;
+  grid-template-areas: 
+  'wonder sarvesh mando'
+  'wonder mohit mando'
+  'wonder mohit renso';
+  width: 80%;
+}
+
+.illu{
+  width:90%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+}
+
+.A{
+  grid-area: wonder;
+}
+
+.B{
+  grid-area: sarvesh;
+}
+
+.C{
+  grid-area: mohit;
+}
+
+.D{
+  grid-area: mando;
+}
+
+.E{
+  grid-area: renso;
+}
+
+/* Sketch */
+
+
+
+/* Footer */
+
+
+footer{
+  background-color:#973e30;
+  bottom: 0;
+  right:0;
+  left:0;
+  width: 100%;
+  size: 100%;
+  align-content: center;
+}
+
+.foot{
+  margin: 0 auto 0 auto;
+  width: 50%;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.punk{
+  color: white;
+}
+
+/* #973e30 */
